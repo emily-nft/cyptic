@@ -16,3 +16,8 @@ icon.addEventListener("click", function () {
   post.classList.remove("hidden");
   backgroundOverlay.classList.remove("hidden");
 });
+
+backgroundOverlay.addEventListener("click", function () {
+  post.classList.add("hidden");
+  backgroundOverlay.classList.add("hidden");
+});
